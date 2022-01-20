@@ -19,3 +19,12 @@
 
 p "Enter a number:"
 
+number = gets.chomp
+
+index = 1
+while index <=10
+  p number.to_i*index
+  index = index + 1
+end
+
+
